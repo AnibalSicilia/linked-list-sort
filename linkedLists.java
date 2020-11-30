@@ -1,23 +1,7 @@
-package assignment3;
+package customlinkedlist;
 
 import java.util.LinkedList;
-/* COURSE      : COP 3530
- * Section     : U02
- * Semester    : Fall 2012
- * Instructor  : Alex Pelin
- * Author      : Anibal Sicilia
- * Assignment #: 3
- * Due date    : September 11, 2012
- * Description :
- *
- *
- *
- *  I certify that the work is my own and did not consult with
- *  anyone.
- *
- *
- *   Anibal Sicilia
- */
+
 public class SortedLinkedList<T extends Comparable<? super T>> extends LinkedList<T>
 {
     private LinkedList<T> list; // the sorted list
